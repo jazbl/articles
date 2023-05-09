@@ -1,3 +1,3 @@
 # articles
 
-Articles for cloud
+Cloud Administration articles.
