@@ -1,3 +1,3 @@
 # articles
 
-This is a React front-end along with a simple Node api.
+This is a React front-end along with a simple Node API.
