@@ -6,7 +6,7 @@ function App(d) {
 
   return (
     <>
-      <h3>Welcome { d.user }</h3>
+      <h3>Welcome, { d.user }</h3>
     </>
   )
 }
