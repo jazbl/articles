@@ -11,6 +11,6 @@ function RunMain(nm) {
   )
 }
 
-fetch('https://reqres.in/api/users')
+fetch('http://localhost:3000')
     .then(rs => rs.json())
-    .then(dt => RunMain(dt.data[1].first_name))
+    .then(dt => RunMain(dt.data[0].name))
