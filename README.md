@@ -1,3 +1,3 @@
 # articles
 
-This is a React front-end for cloud administration articles.
+This is a React front-end and a simple Node api.
