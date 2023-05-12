@@ -11,6 +11,6 @@ function RunMain(nm) {
   )
 }
 
-fetch('http://localhost:5001')
+fetch('http://0.0.0.0:5001')
     .then(rs => rs.json())
     .then(dt => RunMain(dt.data[0].name))
