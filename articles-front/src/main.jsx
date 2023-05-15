@@ -11,8 +11,6 @@ function RunMain(nm) {
   )
 }
 
-RunMain("test")
-
-// fetch('http://0.0.0.0:80')
-//     .then(rs => rs.json())
-//     .then(dt => RunMain(dt.data[0].name))
+fetch('http://0.0.0.0:80')
+    .then(rs => rs.json())
+    .then(dt => RunMain(dt.data[0].name))
