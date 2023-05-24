@@ -1,7 +1,7 @@
 {
 "AWSTemplateFormatVersion": "2010-09-09",
  "Resources": {
-  "jazt-t2-micro": {
+  "jaz-t2-micro": {
    "Type": "AWS::EC2::Instance",
    "Properties": {
     "ImageId": "ami-0d147324c76e8210a",
