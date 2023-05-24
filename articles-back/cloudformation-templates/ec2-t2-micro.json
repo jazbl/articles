@@ -1,13 +1,11 @@
-{
-"AWSTemplateFormatVersion": "2010-09-09",
- "Resources": {
-  "T2MicroJaz01": {
-   "Type": "AWS::EC2::Instance",
-   "Properties": {
-    "ImageId": "ami-0d147324c76e8210a",
-    "InstanceType": "t2.micro",
-    "KeyName": "****************************"
-   }
+"Resources": {
+ "T2MicroJaz01": {
+  "Type": "AWS::EC2::Instance",
+  "Properties": {
+   "ImageId": "ami-0d147324c76e8210a",
+   "InstanceType": "t2.micro",
+   "KeyName": "****************************"
   }
  }
 }
+
