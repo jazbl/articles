@@ -1,3 +1,9 @@
 {
-"AWSTemplateFormatVersion": "2010-09-09"
+"AWSTemplateFormatVersion": "2010-09-09",
+ "Resources": {
+  "jazt-t2-micro": {
+   "Type": "AWS::EC2::Instance",
+   "Properties": {}
+  }
+ }
 }
