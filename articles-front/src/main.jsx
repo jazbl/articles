@@ -11,6 +11,6 @@ function RunMain(nm) {
   )
 }
 
-fetch('http://0.0.0.0:80')
+fetch('https://api.jazt.cloud')
     .then(rs => rs.json())
     .then(dt => RunMain(dt.data[0].name))
