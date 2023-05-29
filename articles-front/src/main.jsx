@@ -13,4 +13,4 @@ function RunMain(nm) {
 
 fetch('https://api.jazt.cloud')
     .then(rs => rs.json())
-    .then(dt => RunMain(dt.data[0].name))
+    .then(dt => RunMain(dt.data[Math.floor(Math.random() * 5)].name))
